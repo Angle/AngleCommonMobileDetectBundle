@@ -1,0 +1,54 @@
+{
+    "name": "angle/common/mobile-detec-bundle",
+    "description": "Mobile Detect bundle for Symfony2",
+    "type": "symfony-bundle",
+    "keywords": [
+        "angle",
+        "common",
+	    "mobiledetect",
+	    "mobiledetectbundle"
+    ],
+    "homepage": "https://github.com/Angle/AngleCommonMobileDetectBundle",
+    "license": "",
+    "authors": [
+        {
+            "name": "Edmundo Fuentes",
+            "email": "me@edmundofuentes.com",
+            "homepage": "http://www.edmundofuentes.com",
+            "role": "creator,manager,architect,developer"
+        },
+        {
+            "name": "Angle Consulting",
+            "email": "email@angle.mx",
+            "homepage": "http://www.angle.mx",
+            "role": "owner"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "ext-mcrypt": "*",
+        "symfony/config": "~2.1",
+        "symfony/dependency-injection": "~2.1",
+        "symfony/filesystem": "~2.1",
+        "symfony/form": "~2.1",
+        "symfony/framework-bundle": "~2.1",
+        "symfony/http-foundation": "~2.1",
+        "symfony/http-kernel": "~2.1",
+        "symfony/monolog-bundle": "~2.1",
+        "symfony/options-resolver": "~2.1",
+        "symfony/security": "~2.1",
+        "symfony/validator": "~2.1",
+        "sensio/framework-extra-bundle": "~2.1",
+        "mobiledetect/mobiledetectlib": "2.8.*"
+    },
+    "suggest": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-0": {
+            "Angle\\Common\\MobileDetectBundle": ""
+        }
+    },
+    "target-dir": "Angle/Common/MobileDetectBundle"
+}

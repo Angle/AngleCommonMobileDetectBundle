@@ -1,0 +1,7 @@
+parameters:
+     angle.mobile_detector.class: Angle\Common\MobileDetectBundle\DeviceDetector\MobileDetector.php
+
+services:
+     angle.mobile_detector:
+         class:     %angle.mobile_detector.class%
+         arguments: [ ]
