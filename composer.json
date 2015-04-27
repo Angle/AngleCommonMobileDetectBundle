@@ -1,5 +1,5 @@
 {
-    "name": "angle/common/mobile-detec-bundle",
+    "name": "angle/common/mobile-detect-bundle",
     "description": "Mobile Detect bundle for Symfony2",
     "type": "symfony-bundle",
     "keywords": [
