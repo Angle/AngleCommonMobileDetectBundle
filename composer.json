@@ -31,7 +31,6 @@
         "symfony/dependency-injection": "~2.1",
         "symfony/http-foundation": "~2.1",
         "symfony/http-kernel": "~2.1",
-        "sensio/framework-extra-bundle": "~2.1",
         "mobiledetect/mobiledetectlib": "2.8.*"
     },
     "suggest": {
